@@ -1,0 +1,53 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+    text-decoration: none;
+}
+h1 { 
+/*font-size: 60px;*/
+font-size: 3.75rem;   /*60px/16=3.75 */
+line-height: 4.75rem;
+}
+h2 {
+/*font-size: 28px;*/
+font-size: 1.75rem;
+}
+h3,
+.h3 {
+/*font-size: 28px;*/
+font-size: 1.75rem;
+}
+h5 {
+
+}
+h6 {
+
+}
+.col-left-title {
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.col-right-title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.col-left p {
+    color: #fff;
+}

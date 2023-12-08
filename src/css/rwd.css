@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .col-left,
+    .col-right {
+        width: 100%;
+    }
+  
+    .hero-header {
+        min-height: auto; 
+        padding: 40px 0 80px 0;
+        top: 0;
+    }
+    .hero-header h2{
+        position: static;
+    }
+    .hero-img {
+        /* height: 450px; */
+        height: 28.125rem;
+    }
+    .hero-img img{
+        /* max-width: 50%; */
+        width: 250px;
+    }
+    .flex-column-m {
+        flex-direction: column;
+    }
+    .jc-space-around {
+        justify-content: center;
+    }
+    .phone, .address, .website, .email {
+        text-align: center;
+    }
+    .skills {
+        min-height: auto;
+    }
+    .skills-list {
+        left: 30%;
+        position: relative;
+        margin: 0;
+        padding: 10px 0 100px 0;
+    }
+    .title-bg {
+        left: 0;
+    }
+    .title-bg::before {
+        display: none;
+    }
+    .title-bg i {
+        margin: 0 5px;
+    }
+}

@@ -1,0 +1,65 @@
+.container {
+
+    max-width: 890px;
+
+    margin: 0 auto;
+
+    /* border: 1px solid var(--primary-color); obramowanie robocze Kombinowane */
+    
+    box-shadow: 0px 0px 41px -15px rgba(66, 68, 90, 1);
+
+}
+
+.flex {
+
+    display: flex;
+
+} 
+
+/* jeżeli chcemy aby elementy były jeden pod drugim */
+
+.flex-column {
+
+    flex-direction: column;
+
+}
+
+/* jeżeli chcemy aby elementy były obok siebie */
+
+.flex-row {
+
+    flex-direction: row;
+
+    
+
+} 
+
+/* jeżeli chemy wysrodkować elementy wzgledem wysokości wierszy */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items {
+
+align-items: center;
+
+
+
+}
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.col-left {
+
+    width: 40%;
+
+}
+
+.col-right {
+
+    width: 60%;
+
+
+
+}
